@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DATA_LAPORAN" targetNamespace="http://tempuri.org/DATA_LAPORAN.xsd" xmlns:mstns="http://tempuri.org/DATA_LAPORAN.xsd" xmlns="http://tempuri.org/DATA_LAPORAN.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DATA_LAPORAN" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DATA_LAPORAN" msprop:Generator_UserDSName="DATA_LAPORAN">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TBL_LAPORAN" msprop:Generator_TableClassName="TBL_LAPORANDataTable" msprop:Generator_TableVarName="tableTBL_LAPORAN" msprop:Generator_TablePropName="TBL_LAPORAN" msprop:Generator_RowDeletingName="TBL_LAPORANRowDeleting" msprop:Generator_RowChangingName="TBL_LAPORANRowChanging" msprop:Generator_RowEvHandlerName="TBL_LAPORANRowChangeEventHandler" msprop:Generator_RowDeletedName="TBL_LAPORANRowDeleted" msprop:Generator_UserTableName="TBL_LAPORAN" msprop:Generator_RowChangedName="TBL_LAPORANRowChanged" msprop:Generator_RowEvArgName="TBL_LAPORANRowChangeEvent" msprop:Generator_RowClassName="TBL_LAPORANRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TGL" msprop:Generator_ColumnVarNameInTable="columnTGL" msprop:Generator_ColumnPropNameInRow="TGL" msprop:Generator_ColumnPropNameInTable="TGLColumn" msprop:Generator_UserColumnName="TGL" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="KODE" msprop:Generator_ColumnVarNameInTable="columnKODE" msprop:Generator_ColumnPropNameInRow="KODE" msprop:Generator_ColumnPropNameInTable="KODEColumn" msprop:Generator_UserColumnName="KODE" type="xs:string" minOccurs="0" />
+              <xs:element name="MENU" msprop:Generator_ColumnVarNameInTable="columnMENU" msprop:Generator_ColumnPropNameInRow="MENU" msprop:Generator_ColumnPropNameInTable="MENUColumn" msprop:Generator_UserColumnName="MENU" type="xs:string" minOccurs="0" />
+              <xs:element name="JUMLAH" msprop:Generator_ColumnVarNameInTable="columnJUMLAH" msprop:Generator_ColumnPropNameInRow="JUMLAH" msprop:Generator_ColumnPropNameInTable="JUMLAHColumn" msprop:Generator_UserColumnName="JUMLAH" type="xs:int" minOccurs="0" />
+              <xs:element name="HARGA" msprop:Generator_ColumnVarNameInTable="columnHARGA" msprop:Generator_ColumnPropNameInRow="HARGA" msprop:Generator_ColumnPropNameInTable="HARGAColumn" msprop:Generator_UserColumnName="HARGA" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
